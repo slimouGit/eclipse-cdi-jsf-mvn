@@ -9,8 +9,7 @@
 <meta charset="UTF-8"></meta>
 <title>MVN_CDI</title>
 </h:head>
-<h:body>
-<p>Hello</p>
+<f:view>
 	<h1>
 		<h:outputLabel value="#{dummyBean.projectName}"/>
 	</h1>
@@ -20,5 +19,5 @@
 			<h:outputLabel id="output" rendered="#{not empty dummyBean.helloFromService}" value="#{dummyBean.helloFromService}" />
 		</div>
 	</h:form>
-</h:body>
+</f:view>
 </html>
